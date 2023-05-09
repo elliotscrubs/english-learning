@@ -1,0 +1,84 @@
+@media only screen and (max-width: 300px) {
+}
+
+body {
+  text-align: center;
+  position: absolute;
+  width: 100vw;
+}
+
+.top {
+  background-color: rgb(174, 65, 65);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.text,
+div.hungarian,
+div.text2 {
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+div.english {
+  width: fit-content;
+}
+
+div.hungarian {
+  text-decoration: underline;
+}
+
+div.result p {
+  margin: 30px 50px;
+  font-weight: bold;
+  padding: 20px 20px 20px 20px;
+  font-size: xxx-large;
+}
+
+.bottom {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+div.card {
+  flex-basis: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+div.card > button {
+  background-color: orange;
+  width: 30vw;
+  border: none;
+  min-height: 50px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
+  margin: 70px;
+  cursor: pointer;
+}
+
+div.card > button:active {
+  background-color: darkorange;
+}
+
+div.card > button.correct {
+  background-color: rgb(100, 140, 21);
+}
+
+div.card > button.inCorrect {
+  background-color: red;
+}
+
+div.card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1800px) {
+}
