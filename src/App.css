@@ -6,10 +6,10 @@ body {
   position: absolute;
   width: 100vw;
   margin: 0;
+  background-color: rgb(174, 65, 65);
 }
 
 .top {
-  background-color: rgb(174, 65, 65);
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,7 @@ div.result p {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap-reverse;
+  height: 50vh;
 }
 
 div.card {
